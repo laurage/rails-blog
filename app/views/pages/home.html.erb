@@ -1,4 +1,9 @@
 <div class="page--yellow">
-  <h1>HOME</h1>
-  <p>Hello!</p>
+  <div class="row">
+    <% @posts.each do |post| %>
+      <div class="col-xs-4">
+        <%= post.title %>
+      </div>
+    <% end %>
+  </div>
 </div>
