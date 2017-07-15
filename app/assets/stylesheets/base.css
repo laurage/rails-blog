@@ -1,5 +1,11 @@
-.page-colour-yellow {
+.page--yellow {
   background-color: yellow;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page--purple {
+  background-color: purple;
   width: 100vw;
   height: 100vh;
 }
